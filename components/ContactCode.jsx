@@ -8,8 +8,8 @@ const contactItems = [
   },
   {
     social: 'Email',
-    link: 'suportecire@gmail.com',
-    href: 'mailto:suportecire@gmail.com',
+    link: 'ericpereira.dev@gmail.com',
+    href: 'mailto:ericpereira.dev@gmail.com',
   },
   {
     social: 'GitHub',
@@ -30,16 +30,6 @@ const contactItems = [
     social: 'Telegram',
     link: '@cirebox',
     href: 'https://t.me/cirebox',
-  },
-  {
-    social: 'Codepen',
-    link: '@cirebox',
-    href: 'https://codepen.io/cirebox',
-  },
-  {
-    social: 'CodeSandbox',
-    link: '@cirebox',
-    href: 'https://codesandbox.io/u/cirebox',
   },
 ];
 
