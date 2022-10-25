@@ -1,0 +1,50 @@
+.cointainer p{
+  line-height: 1.5;
+  margin: 1rem 0;
+  font-weight: lighter;
+}
+
+.containerSkills {
+  margin-top: 1rem;
+  display: flex;
+  justify-content:space-between;
+  max-width: 50vw;
+}
+
+.skill {
+  max-width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill h4 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+
+/* Phone */
+@media screen and (max-width: 600px) {
+  .skill {
+    max-width: 100vw;
+  }
+
+  .skill ul {
+    margin-right: 4.7rem;
+    width: 100%;
+  }
+
+  .skill li {
+    font-size: 0.8rem;
+  }
+
+  .skill h4{
+    font-size: 1rem;
+  }
+
+
+  .cointainer h2{
+    font-size: 1.1rem;
+  }
+
+}

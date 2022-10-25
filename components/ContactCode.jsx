@@ -2,54 +2,44 @@ import styles from '../styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    social: 'WebSite',
+    link: 'cirebox.com.br',
+    href: 'https://cirebox.com.br',
   },
   {
-    social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    social: 'Email',
+    link: 'suportecire@gmail.com',
+    href: 'mailto:suportecire@gmail.com',
   },
   {
-    social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    social: 'GitHub',
+    link: '@cirebox',
+    href: 'https://github.com/cirebox',
   },
   {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    social: 'Linkedin',
+    link: '@cire',
+    href: 'https://www.linkedin.com/in/cire/',
   },
   {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    social: 'Instagram',
+    link: '@eric_pereira95',
+    href: 'https://www.instagram.com/eric_pereira95',
   },
   {
-    social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
+    social: 'Telegram',
+    link: '@cirebox',
+    href: 'https://t.me/cirebox',
   },
   {
-    social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
+    social: 'Codepen',
+    link: '@cirebox',
+    href: 'https://codepen.io/cirebox',
   },
   {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
-  },
-  {
-    social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
+    social: 'CodeSandbox',
+    link: '@cirebox',
+    href: 'https://codesandbox.io/u/cirebox',
   },
 ];
 

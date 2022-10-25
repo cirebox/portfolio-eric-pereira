@@ -11,24 +11,19 @@ const explorerItems = [
     icon: 'react_icon.svg',
   },
   {
-    name: 'about.html',
+    name: 'sobre.html',
     path: '/about',
     icon: 'html_icon.svg',
   },
   {
-    name: 'contact.css',
+    name: 'contato.css',
     path: '/contact',
     icon: 'css_icon.svg',
   },
   {
-    name: 'projects.js',
+    name: 'projetos.js',
     path: '/projects',
     icon: 'js_icon.svg',
-  },
-  {
-    name: 'articles.json',
-    path: '/articles',
-    icon: 'json_icon.svg',
   },
   {
     name: 'github.md',
@@ -56,7 +51,7 @@ const Explorer = () => {
             className={styles.chevron}
             style={portfolioOpen ? { transform: 'rotate(90deg)' } : {}}
           />
-          Portfolio
+          Portfólio
         </label>
         <div
           className={styles.files}

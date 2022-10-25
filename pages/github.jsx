@@ -26,24 +26,24 @@ const GithubPage = ({ repos, user }) => {
           <h3 className={styles.username}>{user.login}</h3>
         </div>
         <div>
-          <h3>{user.public_repos} repos</h3>
+          <h3>{user.public_repos} repositórios</h3>
         </div>
         <div>
-          <h3>{user.followers} followers</h3>
+          <h3>{user.followers} seguidores</h3>
         </div>
+      </div>
+      
+      <div className={styles.contributions}>
+        <GitHubCalendar
+          username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
+          theme={theme}
+          hideColorLegend        
+        />
       </div>
       <div className={styles.container}>
         {repos.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
-      </div>
-      <div className={styles.contributions}>
-        <GitHubCalendar
-          username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
-          theme={theme}
-          hideColorLegend
-          hideMonthLabels
-        />
       </div>
     </>
   );

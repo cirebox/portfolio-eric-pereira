@@ -1,9 +1,10 @@
 module.exports = {
   images: {
     domains: [
-      'res.cloudinary.com',
-      'avatars.githubusercontent.com',
-      'imgur.com',
-    ],
-  },
+      "cirebox.com.br",
+      "res.cloudinary.com",
+      "avatars.githubusercontent.com",
+      "imgur.com"
+    ]
+  }
 };
