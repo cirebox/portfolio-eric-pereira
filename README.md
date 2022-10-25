@@ -1,9 +1,9 @@
-# vscode-portfolio
-[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/itsnitinr/vscode-portfolio)
+# portfolio-eric-pereira
+[<img height=40 witdh=40 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />](https://open.vscode.dev/cirebox/portfolio-eric-pereira)
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
+![vscode-portfolio banner](https://media-exp1.licdn.com/dms/image/C4D22AQEwVQWPSzgaBQ/feedshare-shrink_800/0/1666668596508?e=1669852800&v=beta&t=KS6LCMR0xZ2oIkeTOrrj6T8BGhFEUTpPPnEiL-CWXZY)
 
 ## Features Roadmap
 
