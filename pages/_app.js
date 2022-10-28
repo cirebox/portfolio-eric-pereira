@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import Head from "../components/Head";
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head title={`Eric Pereira | ${pageProps.title}`} />
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }
