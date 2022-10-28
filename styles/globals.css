@@ -142,6 +142,13 @@ li {
   background: rgba(251, 246, 97, 0.25);
 }
 
+.nextjs {
+  border: 0.1rem solid rgb(68, 56, 18);
+}
+.nextjs:hover {
+  background: rgba(68, 56, 18, 0.25);
+}
+
 .sequelize {
   border: 0.1rem solid rgb(230, 97, 251);
 }
@@ -154,6 +161,48 @@ li {
 }
 .node:hover {
   background: rgba(131, 205, 41, 0.25);
+}
+
+.nestjs {
+  border: 0.1rem solid rgb(224, 113, 22);
+}
+.nestjs:hover {
+  background: rgba(224, 113, 22, 0.25);
+}
+
+.apirest {
+  border: 0.1rem solid rgb(211, 23, 126);
+}
+.apirest:hover {
+  background: rgba(211, 23, 126, 0.25);
+}
+
+.flutter {
+  border: 0.1rem solid rgb(66, 115, 221);
+}
+.flutter:hover {
+  background: rgba(66, 115, 221, 0.25);
+}
+
+.postgres {
+  border: 0.1rem solid rgb(53, 91, 172);
+}
+.postgres:hover {
+  background: rgba(53, 91, 172, 0.25);
+}
+
+.lazarus {
+  border: 0.1rem solid rgb(63, 67, 75);
+}
+.lazarus:hover {
+  background: rgba(63, 67, 75, 0.25);
+}
+
+.delphi {
+  border: 0.1rem solid rgb(177, 43, 43);
+}
+.delphi:hover {
+  background: rgba(177, 43, 43, 0.25);
 }
 
 .mongodb {

@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
               Source Code
             </a>
           )}
-          <a
+          {project.demo && <a
             href={project.demo}
             target="_blank"
             rel="noopener noreferrer"
@@ -34,6 +34,7 @@ const ProjectCard = ({ project }) => {
           >
             Demonstração
           </a>
+          }
         </div>
       </div>
     </div>
