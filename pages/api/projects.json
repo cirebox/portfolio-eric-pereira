@@ -3,7 +3,7 @@
     "id": 1,
     "name": "CNH Brasil",
     "image": "/cnhbrasil.png",
-    "description": "Aplicativo para alunos de auto escolas",
+    "description": "Aplicativo para alunos de auto escolas da Soul Systems ",
     "tags": [
       "flutter",
       "apirest"
@@ -13,9 +13,32 @@
   },
   {
     "id": 2,
+    "name": "Ony Ticket",
+    "image": "/ony-ticket.png",
+    "description": "Plataforma para divulgação de eventos e venda de ingressos",
+    "tags": [
+      "flutter",
+      "apirest"
+    ],
+    "demo": "https://onyticket.vercel.app/#/"
+  },
+  {
+    "id": 3,
+    "name": "Vai Bem Saúde",
+    "image": "/vai-bem-saude.png",
+    "description": "Aplicativo para acesso ao serviço de telemedicina da Cartão Vai Bem ",
+    "tags": [
+      "flutter",
+      "apirest"
+    ],
+    "source_code": "",
+    "demo": "https://play.google.com/store/apps/details?id=app.cartaovaibem.saude.telemedicina"
+  },
+  {
+    "id": 4,
     "name": "Victor Feitosa Imóveis",
     "image": "/victorfeitosaimoveis.png",
-    "description": "Web site para consulta de imóveis.",
+    "description": "Web site para consulta de imóveis na imobiliária Victor Feitosa Imóveis ",
     "tags": [
       "node",
       "nestjs",
@@ -27,14 +50,38 @@
     "demo": "https://victorfeitosaimoveis.com.br"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Box Transporte",
     "image": "/boxtransporte.png",
-    "description": "Sistema para gestão de transportadora ",
+    "description": "Sistema para gestão de transportadoras ",
     "tags": [
       "delphi",
       "postgres"
     ],
     "demo": ""
+  },
+  {
+    "id": 6,
+    "name": "Simulador de financiamento",
+    "image": "/logo-engexata-engenharia.png",
+    "description": "Simulador de financiamento imobiliário EngExata Engenharia",
+    "tags": [
+      "html",
+      "javascript",
+      "node"
+    ],
+    "demo": "https://engexata.com.br/simulador/"
+  },
+  {
+    "id": 7,
+    "name": "Simulador de desconto Unifor",
+    "image": "/simulador-unifor.png",
+    "description": "Simulador de desconto em cursos Unifor",
+    "tags": [
+      "html",
+      "javascript",
+      "node"
+    ],
+    "demo": "https://universidadedefortaleza.com/simuladordedescontoescolas/"
   }
 ]
