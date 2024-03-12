@@ -1,5 +1,5 @@
 import ProjectCard from '../components/ProjectCard';
-import { getProjects } from './api/projects';
+import { api } from "../pages/api/config/axios";
 import styles from '../styles/ProjectsPage.module.css';
 
 const ProjectsPage = ({ projects }) => {
@@ -16,7 +16,16 @@ const ProjectsPage = ({ projects }) => {
 };
 
 export async function getStaticProps() {
-  const projects = getProjects();
+  let projects;
+  await api
+    .get(`/projects`)
+    .then((response) => {
+      projects = response.data;
+    })
+    .catch((error) => {
+    })
+    .finally(() => {
+    });
 
   return {
     props: { title: 'Projects', projects },

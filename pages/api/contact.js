@@ -14,10 +14,11 @@ export default async (req, res) => {
     const { name, email, subject, message } = JSON.parse(req.body);
     await notion.pages.create({
       parent: {
+        type: "database_id",
         database_id: process.env.NOTION_DATABASE_ID
       },
       properties: {
-        Name: {
+        Nome: {
           title: [
             {
               text: {
@@ -27,7 +28,13 @@ export default async (req, res) => {
           ]
         },
         Email: {
-          email
+          rich_text: [
+            {
+              text: {
+                content: email
+              }
+            }
+          ]
         },
         Subject: {
           rich_text: [
